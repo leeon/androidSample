@@ -1,4 +1,4 @@
-androidSample
-=============
+diordna
+=======
 
-leeon's code for android learning
+diordna is android

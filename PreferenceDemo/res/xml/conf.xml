@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <EditTextPreference 
+        android:key="login"
+        android:title="@string/login_title"
+        android:summary="@string/login_summary"/>
+    
+    <CheckBoxPreference 
+        android:key="isRemember" 
+        android:summaryOn="@string/isRember_summaryOn" 
+        android:summaryOff="@string/isRemember_summaryOff" 
+        android:title="@string/isRemember_title"/>
+    
+    <ListPreference 
+        android:key="userType"
+        android:title="@string/userType_title"
+        android:summary="@string/userType_summary"
+        android:entries="@array/user_type"
+        android:entryValues="@array/user_type_value"
+        android:defaultValue="1"/>
+        
+    <PreferenceScreen
+    	android:key="check"
+    	android:title="测试OnPreferenceClick"
+    />
+            
+    </PreferenceScreen>

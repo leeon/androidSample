@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="user_type">
+        <item>普通用户</item>
+		<item>管理员用户</item>
+		<item>匿名访客</item>
+
+	</string-array>
+	
+	<string-array name="user_type_value">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+
+
+	</string-array>
+</resources>

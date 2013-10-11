@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, PreferenceDemoActivity!</string>
+    <string name="app_name">PreferenceDemo</string>
+    
+    
+    <!--登录项-->
+    <string name="isRemember_title">自动登录</string>
+    <string name="isRember_summaryOn">取消勾选清除登录信息</string>
+    <string name="isRemember_summaryOff">勾选记住用户信息</string>
+    
+    <!-- 用户类型 -->
+    <string name="userType_title">用户类型</string>
+    <string name="userType_summary">选择你的登录方式</string>
+    
+    <!-- 登录窗口 -->
+    <string name="login_title">添加账户</string>
+    <string name="login_summary">输入您的用户名和密码</string>
+</resources>
